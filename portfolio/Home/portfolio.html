@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body id="full_body">
+
+    <div id="root">
+      <div class="nav_bar">
+        <div class="position">
+          <h1>
+            portfolio<span><b>.</b></span>
+          </h1>
+          <div class="nav_content">
+            <h4>
+              <a href="" class="nav_a">Home<span><b>.</b></span></a>
+            </h4>
+            <h4>
+              <a href="#Section2" class="nav_a">About<span><b>.</b></span></a>
+            </h4>
+            <h4>
+              <a href="#section4" class="nav_a">Skill<span><b>.</b></span></a>
+            </h4>
+            <h4>
+              <a href="#section5" class="nav_a">Works<span><b>.</b></span></a>
+            </h4>
+            <h4>
+              <a href="#section6" class="nav_a">Contact<span><b>.</b></span></a>
+            </h4>
+          </div>
+          <button id="dark_mode"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- main-section -->
+    <div class="main">
+      <div class="main_symbols">__ symbols</div>
+      <div id="image_bgcolor">
+        <div class="main_name">VISHNU CT</div>
+        <div id="image"></div>
+      </div>
+      <div class="main_scroll">SCROLL __</div>
+    </div>
+
+    <!-- section-2 -->
+    <div id="Section2">
+      <p class="about-symbol"><b>___ About me</b></p>
+      <div class="about-head">
+
+
+        <h2>who i am?</h2>
+        <p class="head-text">
+          <b> ~> </b>Hi i am vishnu iam a software developer.
+        </p>
+      </div>
+      <p class="about_text2">
+        <b>H</b>i i'm vishnu ct, and I am a developer who has a passion for
+        building clean web applications with intuitive functionalities I enjoy
+        the process of turning ideas into reality using creative solutions I'm
+        always curious about learning new skills, tools and concepts. In
+        addition to working on various Full Stack projects, I need to enhance my
+        programming knowledge so l'm searching my first step to career.
+      </p>
+    </div>
+
+    <!-- section-3 -->
+    <div id="section3"><a href="./vishnu.pdf" download><button id="cv_btn">Download CV</button></a></div>
+
+    <!-- section-4 -->
+    <div id="section4">
+      <div class="section4-symbol"><b>___ MY SKILLS</b></div>
+      <div><h2>My Programming skills</h2></div>
+      <div id="images">
+        <div class="skill img6"></div>
+        <div class="skill img7"></div>
+        <div class="skill img1"></div>
+        <div class="skill img2"></div>
+        <div class="skill img3"></div>
+        <div class="skill img4"></div>
+        <div class="skill img5"></div>
+      </div>
+    </div>
+    <!-- section-5 -->
+    <div id="section5">
+      <div class="section5-rotate">___ MY WORKS</div>
+      <div class="section5-head"><h2>See My Works</h2></div>
+      <div class="works">
+        <div>
+          <div class="div_one"></div>
+          <div class="div_two"></div>
+        </div>
+        <div>
+          <div class="div_three"></div>
+          <p class="Git-hub">
+            For more projects please visit on my Git-Hub :-
+            <a href="https://github.com/vishnuct521/html_projects">Click here</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-6 -->
+    <div id="section6">
+      <div class="section6-rotate">___ CONTACT</div>
+      <div class="section6-head">
+        <h2>Have You Any Project?
+          <h2>Please Drop a Message</h2>
+        </h2>
+      </div>
+      <div class="contact-form">
+        <!-- <form action="" method="POST" enctype="multipart/form-data" name="EmailForm"> -->
+          <form  onsubmit="sendEmail(); reset(); return false">
+          <div  class="form-box1">
+            <div class="label-container">
+            <label class="form-label" for="name">Name:</label>
+            <label class="form-labe2" for="phone">phone:</label>
+            <label class="form-labe2" for="email">Email:</label>
+            <label class="form-labe3" for="message">Message:</label>
+            </div>
+
+            <div class="form-box2">
+            <input type="text" id="name" name="Contact-Name" placeholder="Enter your name " required>
+            <input type="number" id="phone" name="Contact-Name" placeholder=" Enter your phone Number " required>
+            <input type="email" id="email" name="Contact-Email" placeholder="Enter Your Email Address" required>
+            <textarea id="message" name="Contact-Message" rows="6" cols="20" placeholder="Write message.." required>
+            </textarea>
+            <button>Send</button>
+            </div>
+          </div>
+
+        </form>
+    </div>
+    </div>
+
+    <!-- footer-section -->
+    <footer id="last-section">
+      <p>&copy;2024 portfolio All rights reserved</p>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="portfolio.js"></script>
+
+  
+  </body>
+</html>

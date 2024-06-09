@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+#full_body{
+  /* width: 100vw; */
+  background-color: rgb(190, 221, 248);
+  /* background-color: rgb(232, 232, 232); */
+}
+.nav_bar {
+  width: 100%;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.position {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 67px;
+  /* box-shadow: 0px 0px 6px 0px black; */
+  border-bottom: 3px solid gray;
+  border-radius: 15px;
+}
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  width: 400px; 
+  margin-right: 105px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#dark_mode {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 15px;
+  background-image: url('../images/day-mode.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav_bar h1:first-child {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav_bar span {
+  color: red;
+}
+.nav_bar h4 {
+  font-size: 16px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  justify-content: space-between;
+}
+#image_bgcolor {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(225, 225, 6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgb(164, 164, 20);
+}
+.main_symbols {
+  transform: rotate(-90deg);
+  position: relative;
+  left: 50px;
+}
+.main_scroll {
+  transform: rotate(90deg);
+  position: relative;
+  right: 50px;
+}
+#image {
+  position: absolute;
+  /* background: url(""); */
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_name {
+  position: absolute;
+  margin-left: 20px;
+  top: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 100px;
+  letter-spacing: 2px;
+}
+
+/* section-2 */
+#Section2 {
+  width: 100%;
+  height: 76vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+.head-text {
+  padding-top: 5px;
+  font-size: larger;
+}
+.about_text2 {
+  width: 500px;
+  text-align: justify;
+  font-size: large;
+}
+.about-symbol {
+  width: 100px;
+  transform: rotate(270deg);
+}
+.about-head {
+  width: 500px;
+  height: 100px;
+}
+
+/* section-3 */
+#section3 {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+#cv_btn {
+  width: 180px;
+  height: 45px;
+  color: white;
+  background-color: navy;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 1px black;
+}
+#cv_btn:active {
+  box-shadow: none;
+}
+/* section-4 */
+#section4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+.section4-symbol {
+  position: relative;
+  transform: rotate(-90deg);
+}
+.skill {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.img1 {
+  background-image: url("../images/LogoHTML5.JPG");
+}
+.img2 {
+  background-image: url("../images/css3.png");
+}
+.img3 {
+  background-image: url("../images/javascript.png");
+  background-color: white;
+}
+.img4 {
+  background-image: url("../images/react.jpeg");
+}
+.img5 {
+  background-image: url("../images/mysql.png");
+  background-color: white;
+}
+.img6 {
+  background-image: url("../images/python.png");
+}
+.img7 {
+  background-image: url("../images/django.jpeg");
+}
+#images {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 50px;
+}
+
+/* section5 */
+#section5 {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+.section5-rotate {
+  position: relative;
+  transform: rotate(-90deg);
+}
+.works {
+  width: 600px;
+  height: 80vh;
+  display: flex;
+  gap: 25px;
+}
+.div_one {
+  background-image: url("../images/divone.jpg");
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+.div_two {
+  background-image: url("../images/divThree.jpg");
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+.div_three {
+  margin-top: 50px;
+  background-image: url("../images/divTwo.jpg");
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+.Git-hub {
+  padding-top: 26px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Git-hub a {
+  color: blue;
+}
+/* section-6 */
+#section6 {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+.section6-rotate {
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+/* contact - Form*/
+.contact-form {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 20px;
+  background-color: white;
+}
+input,
+textarea {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  resize: none;
+  border: 1.3px solid black;
+  background-color: rgb(243, 241, 241);
+ font-weight: 700;
+}
+
+button {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid navy;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.box3 {
+  display: flex;
+}
+/* last type */
+.form-box1 {
+  display: flex;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  margin-top: 16%;
+}
+.form-labe2 {
+  margin-top: 49%;
+}
+.form-labe3 {
+  margin-top: 100%;
+}
+.form-box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+#last-section {
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}

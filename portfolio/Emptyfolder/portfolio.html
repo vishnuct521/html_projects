@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+
+  <script>
+    function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "folio735686",
+        Password : "folio521",
+        To : 'folio735686@gmail.com',
+        From : document.getElementById('email').value,
+        Subject : "new contact from enquiry",
+        Body : "Name: " + document.getElementById('name').value 
+        + "<br> Email: " + document.getElementById('email').value 
+        + "<br> phone no: " + document.getElementById('phone').value 
+        + "<br> Message: " + document.getElementById('message').value
+    }).then(
+      message => alert('message send succes')
+    );
+}
+
+sendEmail()
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <div id="main_body-img">
+    <div id="nav_bar">
+      <div id="container">
+        <div class="name">
+          <h4 class="name1">Hi,</h4>
+          <h1 class="name2">Vishnu</h1>
+        </div>
+          <div id="info">
+            <a href="http://127.0.0.1:5500/portfolio/portfolio.html">Home</a>
+            <a href="https://www.w3schools.com">Skills</a>
+            <a href="">Projects</a>
+            <a href="">About me</a>
+          </div>
+          <div class="btn">
+            <button id="button" type="button">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+    <div class="main_part">
+
+      <div class="main-box1">
+      <div id="main-box_img"></div>
+      <div class="main-box_content">
+        <p>Hi its me Vishnu</p>
+        <p>i am a Web Developer</p>
+        <p>Contact Me</p>
+      </div>
+      </div>
+
+      <div><h1>i am Vishnu</h1></div>
+      <div>Web Developer</div>
+      <div>Contact Me</div>
+
+    </div>
+  <footer>
+    <div class="footer_part">
+
+    </div>
+  </footer>
+  
+  
+</body>
+</html> -->

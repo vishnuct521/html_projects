@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav_bar {
+  background-color: white;
+  height: 67px;
+  margin: 0px 100px 0px 100px;
+  border-radius: 15px 0px 15px 0px;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  flex-shrink: 0;
+}
+.name {
+  padding-top: 3px;
+  color: navy;
+  flex-shrink: 2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.name2 {
+  flex-shrink: 2;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#info {
+  flex-shrink: 2;
+  display: flex;
+  gap: 50px;
+}
+#info a {
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
+#info a:hover {
+  color: green;
+}
+#button {
+  flex-shrink: 2;
+  padding: 7px 20px 7px 20px;
+  color: black;
+  font-weight: 550;
+  border-radius: 5px;
+}
+#main_body-img {
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("body_img.jpg");
+}
+
+/* section -2 :- body_part */
+.main-box1 {
+  display: flex;
+  justify-content: end;
+  margin: 100px 100px 0px 0px;
+}
+#main-box_img {
+  background-image: url("vishnuport.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px 0px 0px 20px;
+}
+.main-box_content {
+  background-color: black;
+  width: 300px;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+  padding: 20px 0px 0px 1px;
+  line-height: 35px;
+  transition: padding 2s;
+}
+.main-box_content:hover {
+  line-height: normal;
+  padding: 90px 300px 0px 300px ;
+}
+
+
+
+
+.footer_part{
+    height: 600px;
+}
